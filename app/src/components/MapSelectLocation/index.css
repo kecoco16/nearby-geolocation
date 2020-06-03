@@ -1,0 +1,13 @@
+.select-location {
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .select-location {
+    height: 250px;
+    width: 90%;
+  }
+}

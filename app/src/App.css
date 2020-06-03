@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+}
+
+.error {
+  color: red;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
